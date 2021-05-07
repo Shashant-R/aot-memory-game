@@ -1,0 +1,22 @@
+body{
+    background-image: url('./background.jpg');
+    background-size: cover;
+}
+h1{
+    background: rgb(14, 187, 37);
+    color: blanchedalmond;
+    position: fixed;
+    height: 250px;
+    width: 250px;
+    border-radius: 15%;
+    padding: 30px;
+    text-align: left;
+    top: 27%;
+    left :7%;
+}
+#congo {
+    color: blanchedalmond;
+    position: fixed;
+    top: 50px;
+    left :10%;
+}

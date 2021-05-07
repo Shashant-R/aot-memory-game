@@ -1,0 +1,11 @@
+.cardlist {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 6%;
+    left: 30%;
+    width: 50%;
+}
+.cardlist.landscape {
+    width:100%;
+}

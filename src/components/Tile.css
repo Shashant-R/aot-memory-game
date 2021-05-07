@@ -1,0 +1,45 @@
+.flip-container {
+	padding: 5px;
+	margin: 5px;
+	perspective: 200px;
+	display: inline-block;
+	border: 0px ;
+	background-color:  transparent;
+}
+.flip-container .flipper.flippable :hover {
+	background-color: #8acfd4;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.493), 0 6px 20px 0 rgba(0, 0, 0, 0.493);
+}
+.flip-container .flipper :hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.flip-container.flipped .flipper {
+	transform: rotateY(180deg);
+}
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front,
+.back {
+	border-radius: 10%;
+	backface-visibility: hidden;
+	position: absolute;
+}
+
+.back {
+	z-index: 2;
+	background-color: #a8a6a6;
+	transform: rotateY(0deg);
+}
+
+.front{
+	background-color: rgb(224, 216, 103);
+	transform: rotateY(180deg);
+}
+.solved {
+	border-radius: 10%;
+	position: absolute;
+	background-color: rgb(140, 204, 101);
+}
