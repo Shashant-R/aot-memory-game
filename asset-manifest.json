@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aot-memory-game/static/css/main.3015f529.chunk.css",
-    "main.js": "/aot-memory-game/static/js/main.d766f0ae.chunk.js",
-    "main.js.map": "/aot-memory-game/static/js/main.d766f0ae.chunk.js.map",
+    "main.js": "/aot-memory-game/static/js/main.ac4a7a93.chunk.js",
+    "main.js.map": "/aot-memory-game/static/js/main.ac4a7a93.chunk.js.map",
     "runtime-main.js": "/aot-memory-game/static/js/runtime-main.079ec995.js",
     "runtime-main.js.map": "/aot-memory-game/static/js/runtime-main.079ec995.js.map",
     "static/css/2.fe359a49.chunk.css": "/aot-memory-game/static/css/2.fe359a49.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.fe359a49.chunk.css",
     "static/js/2.2c93f96c.chunk.js",
     "static/css/main.3015f529.chunk.css",
-    "static/js/main.d766f0ae.chunk.js"
+    "static/js/main.ac4a7a93.chunk.js"
   ]
 }
