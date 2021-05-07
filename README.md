@@ -8,7 +8,7 @@ Memory Game developed for learning purpose only
 ### -> Game continues untill all the pairs are found.
 ### -> Hit refresh to try again.
 
-Try out your luck in this link : 
+Try out your luck in this link : https://shashant-r.github.io/aot-memory-game/
 
 
 
