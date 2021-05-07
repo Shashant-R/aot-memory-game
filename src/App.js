@@ -41,7 +41,14 @@ export default function App() {
 
 	useEffect(() => {
 		preloadImages()
-	}, tiles)
+	}, [])
+	
+	const preloadImages = () => {
+		tiles.map(tile => {
+			const src = `./img/${tile.type}.png`
+			new Image().src = src
+		})
+	}
 	useEffect(() =>{
 		console.log('Hello')
 		setWon(solved.length===16? true:false)
@@ -50,12 +57,7 @@ export default function App() {
 		const resizeListener = window.addEventListener('resize', resizeBoard)
 		return () => window.addEventListener('resize', resizeListener)
 	})
-	const preloadImages = () => {
-		tiles.map(tile => {
-			const src = `./img/${tile.type}.png`
-			new Image().src = src
-		})
-	}
+	
 	const handleClick = (id) => {
 		setDisabled(true)
 		if(flipped.length === 0){
